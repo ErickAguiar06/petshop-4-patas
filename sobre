@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sobre - Meu Site</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="home.html">Home</a></li>
+                <li><a href="serviços.html">Serviços</a></li>
+                <li><a href="produtos.html">Produtos</a></li>
+                <li><a href="cadastro.html">Cadastro</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <main>
+        <h1>Sobre Nós</h1>
+        <h3>Aqui está um pouco sobre nossa empresa</h3>
+        <li>Trabalho de boa Qualidade</li>
+        <li>Segurança</li>
+        <li>Trabalho Legalizado</li>
+        <li>Bom atendimento</li>
+        <li>Sempre pontual</li>
+    </main>
+
+    <footer>
+        <p>Petshop 4 Patas</p>
+    </footer>
+</body>
+</html>
