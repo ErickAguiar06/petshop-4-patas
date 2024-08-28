@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Serviços - Meu Site</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="home.html">Home</a></li>
+                <li><a href="Produtos.html">Produtos</a></li>
+                <li><a href="sobre.html">Sobre</a></li>
+                <li><a href="cadastro.html">Cadastro</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <main>
+        <h1>Serviços</h1>
+        <h3>Confira os serviços que oferecemos: </h3>
+        Espaço para o pet
+        <br>
+        <br>
+        Banho e Tosa
+        <br>
+        <br>
+        Hidratação
+        <br>
+        <br>
+        Consultoria Nutricional
+        <br>
+        <br>
+        Penteados
+        <br>
+        <br>
+        Adestramento
+        <br>
+        <h3>Disk Ração: </h3>
+        Entregamos ração na sua residência!
+        <br>
+        Basta ligar para este número: (19) 992359518
+    </main>
+
+    <footer>
+        <p> Petshop 4 Patas</p>
+    </footer>
+</body>
+</html>
