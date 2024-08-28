@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabela de Preços - Pet Shop 4 Patas</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-image: url('https://images.unsplash.com/photo-1599326085101-abe9f98550f1?fm=jpg&q=60&w=3000&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D'); 
+            background-size: cover;
+            background-position: center; 
+            background-attachment: fixed; 
+            color: #fff5f5;
+        }
+        header {
+            background-color: #8B4513;
+            padding: 10px 0;
+            color: #fff;
+        }
+        nav ul {
+            list-style: none;
+            margin: 0;
+            padding: 0;
+            text-align: center;
+        }
+        nav li {
+            display: inline;
+            margin-left: 20px;
+        }
+        nav a {
+            text-decoration: none;
+            color: goldenrod;
+            font-weight: bold;
+        }
+        h1 {
+            text-align: center;
+            margin: 20px 0;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 20px auto;
+            max-width: 1200px;
+        }
+        th, td {
+            border: 1px solid black;
+            padding: 12px;
+            text-align: left;
+        }
+        .form-group button {
+            background-color: #4e3b2d; 
+            color: #f7d799; 
+            border: none;
+            padding: 10px 20px;
+            border-radius: 4px;
+            font-size: 16px;
+            cursor: pointer;
+        }
+
+        .form-group button:hover {
+            background-color: #d49a2a; 
+        }
+        
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="home.html">Home</a></li>
+                <li><a href="serviços.html">Serviços</a></li>
+                <li><a href="cadastro.html">Cadastro</a></li>
+                <li><a href="sobre.html">Sobre</a></li>
+            </ul>
+        </nav>
+    </header>
+    <h1>Tabela de Preços - Pet Shop 4 Patas</h1>
+    <table>
+        <thead>
+            <tr>
+                <th>Selecionar</th>
+                <th>Produto</th>
+                <th>Descrição</th>
+                <th>Preço</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td><input type="checkbox" name="item" value="racao"></td>
+                <td>Ração</td>
+                <td>Ração para gatos</td>
+                <td>
+                    <div class="select-container">
+                        <span>R$</span>
+                        <select name="racao-preco">
+                            <option value="2599">25,99 (1kg)</option>
+                            <option value="7990">79,90 (5kg)</option>
+                            <option value="14990">149,90 (10kg)</option>
+                            <option value="31200">312,00 (25kg)</option>
+                            <option value="60000">600,00 (50kg)</option>
+                        </select>
+                    </div>
+                </td>
+            </tr>
+            <tr>
+                <td><input type="checkbox" name="item" value="shampoo"></td>
+                <td>Shampoo</td>
+                <td>Shampoo antipulgas</td>
+                <td>R$ 30,00</td>
+            </tr>
+            <tr>
+                <td><input type="checkbox" name="item" value="brinquedo"></td>
+                <td>Brinquedo</td>
+                <td>Brinquedo para cães</td>
+                <td>R$ 20,00</td>
+            </tr>
+            <tr>
+                <td><input type="checkbox" name="item" value="coleira"></td>
+                <td>Coleira</td>
+                <td>Coleira de Couro</td>
+                <td>R$ 8,99</td>
+            </tr>
+            <tr>
+                <td><input type="checkbox" name="item" value="peitoral"></td>
+                <td>Peitoral</td>
+                <td>Peitoral de Nylon</td>
+                <td>R$ 6,99</td>
+            </tr>
+            <tr>
+                <td><input type="checkbox" name="item" value="enforcador"></td>
+                <td>Enforcador</td>
+                <td>Enforcador com guia</td>
+                <td>R$ 15,00</td>
+            </tr>
+            <tr>
+                <td><input type="checkbox" name="item" value="brinquedos-simples"></td>
+                <td>Brinquedos</td>
+                <td>Brinquedos Simples</td>
+                <td>R$ 4,99</td>
+            </tr>
+            <tr>
+                <td><input type="checkbox" name="item" value="porta-saquinho"></td>
+                <td>Porta saquinho</td>
+                <td>Porta saquinho higiénico (com sacolinha)</td>
+                <td>R$ 7,00</td>
+            </tr>
+            <tr>
+                <td><input type="checkbox" name="item" value="escova"></td>
+                <td>Escova/Rasqueadeira</td>
+                <td>Escova/Rasqueadeira</td>
+                <td>R$ 9,99</td>
+            </tr>
+            <tr>
+                <td><input type="checkbox" name="item" value="comedouro"></td>
+                <td>Comedouro</td>
+                <td>Comedouro Coma melhor</td>
+                <td>R$ 19,99</td>
+            </tr>
+            <tr>
+                <td><input type="checkbox" name="item" value="comedouro-pelos"></td>
+                <td>Tijela para água</td>
+                <td>Tijela para o animal beber água</td>
+                <td>R$ 14,99</td>
+            </tr>
+            <tr>
+                <td><input type="checkbox" name="item" value="pazinha"></td>
+                <td>Pazinha</td>
+                <td>Pazinha Higiénica</td>
+                <td>R$ 2,99</td>
+            </tr>
+        </tbody>
+    </table>
+    <div class="form-group">
+        <button type="submit">Enviar pedido</button>
+    </div>
+</body>
+</html>
