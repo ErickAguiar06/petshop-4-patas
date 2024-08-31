@@ -5,6 +5,26 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Home - Petshop 4 Patas</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <style>
+        .social-icons {
+            margin-top: 10px; 
+        }
+        .social-icons a {
+            text-decoration: none; 
+            color: #000000; 
+            margin-right: 10px; 
+            font-size: 17px; 
+            transition: color 0.3s ease;
+        }
+        .social-icons a:hover {
+            color: #e6007b; 
+        }
+        .social-icons a:nth-child(2):hover {
+            color: #3b5998; 
+        }
+    </style>
+    
 </head>
 <body>
     <header>
@@ -25,15 +45,24 @@
             <br>
             <br>
             <h1>Por que escolher o Petshop 4 Patas?</h1>
-            <p>Atendimento Personalizado: Nossa equipe é apaixonada por animais e está sempre pronta para oferecer conselhos e suporte personalizado.
-                Qualidade e Confiança: Trabalhamos com marcas renomadas e garantimos produtos de alta qualidade para a saúde e bem-estar do seu pet.
-                Ambiente Agradável: Nosso pet shop é projetado para ser um espaço acolhedor, tanto para você quanto para seu pet.</p>
+            <p>Atendimento Personalizado: Nossa equipe é apaixonada por animais e está sempre pronta para oferecer conselhos e suporte personalizado.</p>
+            <p>Qualidade e Confiança: Trabalhamos com marcas renomadas e garantimos produtos de alta qualidade para a saúde e bem-estar do seu pet.</p>
+            <p>Ambiente Agradável: Nosso pet shop é projetado para ser um espaço acolhedor, tanto para você quanto para seu pet.</p>
         </div>
     </section>
     <footer>
         <div class="container">
-        <p>Contato: 4patas@petshop.com</p>
-        <p>Siga-nos nas redes sociais</p>
+            <p>Contato: 4patas@petshop.com</p>
+            <p>Siga-nos nas redes sociais 👇</p>
+            <div class="social-icons">
+                <a target="_blank" aria-label="Instagram">
+                    <i class="fab fa-instagram"> | Petshop 4 Patas</i>
+                </a>
+                <a target="_blank" aria-label="Facebook">
+                    <i class="fab fa-facebook-f"> | Petshop 4 Patas</i>
+                </a>
+            </div>
+        
         </div>
     </footer>
 </body>
