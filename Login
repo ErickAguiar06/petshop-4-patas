@@ -130,6 +130,7 @@
                 <br>
                 <br>
                 <button type="submit">Entrar</button>
+                Não tem uma conta? <a href="cadastro.html">Fazer cadastro</a></li>
             </div>
         </form>
     </div>
