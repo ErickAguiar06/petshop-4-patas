@@ -139,7 +139,6 @@
                 <br>
             <div class="form-group">
                 <button type="submit">Cadastrar</button>
-                Já tem uma conta? <a href="Login.html">Fazer login</a></li>
             </div>
         </form>
     </div>
