@@ -12,7 +12,7 @@
         }
         .social-icons a {
             text-decoration: none; 
-            color: #000000; 
+            color: #fffcfc; 
             margin-right: 10px; 
             font-size: 17px; 
             transition: color 0.3s ease;
@@ -32,7 +32,7 @@
             <a class="logo">Petshop 4 Patas</a>
             <nav>
                 <ul>
-                    <li><a href="cadastro.html">Cadastro</a></li>
+                    <li><a href="Login.html">Login</a></li>
                     <li><a href="serviços.html">Nossos serviços</a></li>
                     <li><a href="Produtos.html">Produtos</a></li>
                     <li><a href="sobre.html">Sobre</a></li>
@@ -52,8 +52,8 @@
     </section>
     <footer>
         <div class="container">
-            <p>Contato: 4patas@petshop.com</p>
-            <p>Siga-nos nas redes sociais 👇</p>
+            <p style="color: white;">Contato: 4patas@petshop.com</p>
+            <p style="color: white;">Siga-nos nas redes sociais 👇</p>
             <div class="social-icons">
                 <a target="_blank" aria-label="Instagram">
                     <i class="fab fa-instagram"> | Petshop 4 Patas</i>
