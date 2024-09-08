@@ -55,7 +55,7 @@
             <p style="color: white;">Contato: 4patas@petshop.com</p>
             <p style="color: white;">Siga-nos nas redes sociais 👇</p>
             <div class="social-icons">
-                <a target="_blank" aria-label="Instagram">
+                 <a href="https://www.instagram.com/petshop4patas.ofc/?utm_source=ig_web_button_share_sheet" target="_blank" aria-label="Instagram">
                     <i class="fab fa-instagram"> | Petshop 4 Patas</i>
                 </a>
                 <a target="_blank" aria-label="Facebook">
