@@ -52,7 +52,11 @@
     </section>
     <footer>
         <div class="container">
-            <p style="color: white;">Contato: 4patas@petshop.com</p>
+            <div class="container">
+                <p style="color: white;">
+                    <span style="color: rgb(255, 249, 249);">Contato:</span> <a href="mailto:petshop4patas.oficial01@gmail.com" style="color: white; text-decoration: none;">petshop4patas.oficial01@gmail.com</a>
+                </p>
+            </div>            
             <p style="color: white;">Siga-nos nas redes sociais 👇</p>
             <div class="social-icons">
                 <a href="https://www.instagram.com/petshop4patas.ofc/?utm_source=ig_web_button_share_sheet" target="_blank" aria-label="Instagram">
