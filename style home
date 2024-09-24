@@ -25,6 +25,9 @@ header {
     color: goldenrod;
 }
 
+nav a:hover {
+    color: #d49a2a; 
+}
 nav ul {
     list-style: none;
     margin: 0;
@@ -39,7 +42,7 @@ nav li {
 
 nav a {
     text-decoration: none;
-    color: goldenrod;
+    color: #f7d799;;
 }
 
 .hero {
