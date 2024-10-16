@@ -20,12 +20,33 @@
     
     <main>
         <h1>Sobre Nós</h1>
+        <selection id="list-item">
         <h3>Aqui está um pouco sobre nossa empresa</h3>
-        <li>Trabalho de boa Qualidade</li>
-        <li>Segurança</li>
-        <li>Trabalho Legalizado</li>
-        <li>Bom atendimento</li>
-        <li>Sempre pontual</li>
+        <div class="list-item">
+            <img src="https://img.freepik.com/vetores-premium/garantia-de-qualidade-arte-vetorial-de-clipart-e-ilustracao_761413-37576.jpg" alt="Qualidade">
+            <p>Trabalho de boa Qualidade</p>
+            </div>
+        <br>
+        <div class="list-item">
+            <img src="https://cdn-icons-png.flaticon.com/512/9413/9413653.png" alt="Segurança">
+            <p>Segurança</p>
+            </div>
+        <br>
+        <div class="list-item">
+        <img src="https://cdn-icons-png.flaticon.com/512/190/190411.png" alt="Verificado">
+        <p>Trabalho Legalizado</p>
+    </div>
+        <br>
+        <div class="list-item">
+            <img src="https://png.pngtree.com/png-vector/20210226/ourlarge/pngtree-give-a-thumbs-up-png-image_2962258.jpg" alt="Certinho">
+            <p>Bom Atendimento</p>
+        </div>
+        <br>
+        <div class="list-item">
+            <img src="https://wallpaper.forfun.com/fetch/13/13a99f413b42931820c6d0ba9fa6b808.jpeg" alt="Cachorro">
+            <p>Oferecendo sempre os melhores serviços para o seu pet!</p>
+        </div>
+    </selection>
     </main>
 
     <footer>
